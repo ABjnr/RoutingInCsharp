@@ -17,7 +17,7 @@ namespace Routing.Controllers
             return "Routing 1";
         }
 
-        // GET: localhost:xx/api/Route/Get2 -> "Routing 2"
+        // GET : localhost:xx/api/Route/Get2 -> "Routing 2"
         [HttpGet(template: "Get2")]
         public string Bananas() 
         {
